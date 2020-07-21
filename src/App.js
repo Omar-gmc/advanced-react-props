@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import "./index";
-import ProductTable from "./productType";
+import ProductTable from "./component/productType";
 
 const Product = [
   { category: "Electronics", price: 300, name: "Mobile Phone" },
@@ -16,9 +16,9 @@ function App() {
       <h1 className="cltit">THE PRODUCTS ARRAY OF OBJECT</h1>
       <hr />
       <div className="COL">
-        <h1>Category</h1>
-        <h1>Price</h1>
-        <h1>Name</h1>
+        <h2>Category</h2>
+        <h2>Price</h2>
+        <h2>Name</h2>
       </div>
       <div>
         <ProductTable x={Product} />
